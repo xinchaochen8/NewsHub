@@ -1,0 +1,32 @@
+.current_temperature,
+.other_temperatures {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+.temperature {
+    border: 8px;
+    background-color: #ecf0f1;
+    border-radius: 3em;
+    display: flex;
+}
+
+#Weather {
+    font-weight: bold;
+    font-size: 24px;
+    color: #0074d9;
+    margin: auto;
+}
+
+#Current_Temperature {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff4136;
+}
+
+#Highest_Temperature,
+#Lowest_Temperature {
+    font-size: 16px;
+    color: #555;
+}

@@ -1,0 +1,25 @@
+{
+  "short_name": "NewsHub",
+  "name": "The Ultimate News Ticker",
+  "icons": [
+    {
+      "src": "NewsICON.pnc",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/pnc"
+    },
+    {
+      "src": "NewsICON.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "NewsICON.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

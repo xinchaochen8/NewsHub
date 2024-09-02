@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>News Ticker</title>
+  <link rel="stylesheet" type="text/css" href="./src/index.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./src/index.js"></script>
+</head>
+
+<body>
+  <section class="initial">
+    <h1>Welcome!</h1>
+    <p>Click Anywhere to Continue</p>
+  </section>
+
+  <audio id="myAudio" controls loop autoplay>
+    <source id="BGM" src="./src/audio/異世界の始まり.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="news">
+    
+    <div class="header">
+      <h1>NewsHub</h1>
+    </div>
+    <nav class="navBar" id="navBar">
+      <h2><a href="#BusinessNewsTitle">Business</a></h2>
+      <h2><a href="#EntertainmentNewsTitle">Entertainment</a></h2>
+      <h2><a href="#GeneralNewsTitle">General</a></h2>
+      <h2><a href="#PoliticsNewsTitle">Politics</a></h2>
+      <h2><a href="#ScienceNewsTitle">Science</a></h2>
+      <h2><a href="#EducationNewsTitle">Education</a></h2>
+      <h2><a href="#HealthNewsTitle">Health</a></h2>
+      <h2><a href="#SportsNewsTitle">Sports</a></h2>
+      <h2><a href="#TechnologyNewsTitle">Technology</a></h2>
+      <h2 id="dailyQuote"></h2>
+    </nav>
+
+    <div class="banner" id="banner">
+      <img src="./src/img_kyoto.jpg" id="WeatherImg" alt="Weather Icon">
+      <h2 id="Weather">TBD</h2>
+
+      <section class="temperature">
+        <section class="current_temperature">
+          <h2>Temperature:</h2>
+          <p id="Current_Temperature">TBD</p>
+        </section>
+    
+        <div class="other_temperatures">
+          <h2>Highest Temperature:</h2>
+          <p id="Highest_Temperature">TBD</p>
+          <h2>Lowest Temperature:</h2>
+          <p id="Lowest_Temperature">TBD</p>
+        </div>
+      </section>
+    
+      <section class="others_info">
+        <h2>Humidity:</h2>
+        <p id="Humidity">TBD</p>
+        <h2>Wind Speed:</h2>
+        <p id="WindSpeed">TBD</p>
+      </section>
+    
+      <h3 id="quote">TBD</h3>
+      <p id="author">TBD</p>
+    </div>
+
+    <div class="request">
+      <form id="requestForm">
+        <label for="method">HTTP Method:</label>
+        <select id="method" name="method" required>
+            <option value="GET">GET</option>
+            <option value="PUT">PUT</option>
+            <option value="POST">POST</option>
+            <option value="DELETE">DELETE</option>
+        </select>
+
+        <br>
+
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" placeholder="Enter URL" required>
+
+        <br>
+
+        <button type="submit">Submit Request</button>
+      </form>
+    </div>
+
+    
+    <div class="action">
+      <button class="action-button category_selection" id="action14">world</button>
+      <button class="action-button category_selection" id="action15">business</button>
+
+    </div>
+
+    <div class="action">
+      <button class="action-button number_selection" id="action4">0</button>
+      <button class="action-button number_selection" id="action5">1</button>
+      <button class="action-button number_selection" id="action6">2</button>
+      <button class="action-button number_selection" id="action7">3</button>
+      <button class="action-button number_selection" id="action8">4</button>
+      <button class="action-button number_selection" id="action9">5</button>
+      <button class="action-button number_selection" id="action10">6</button>
+      <button class="action-button number_selection" id="action11">7</button>
+      <button class="action-button number_selection" id="action12">8</button>
+      <button class="action-button number_selection" id="action13">9</button>
+    </div>
+
+    <div class="action">
+      <button class="action-button" id="action1">GET Listing of News Articles</button>
+      <button class="action-button" id="action0">Bulk Update</button>
+      <button class="action-button" id="action2">Update Specific</button>
+
+      <button class="action-button" id="action3">Delete Specific</button>
+    </div>
+
+    <div class="news">
+      <!-- <a href="#navBar">
+        <h1 class="sectionTitle" id="ActionNewsTitle">Action News</h1>
+      </a>
+
+      <div id="ActionNews" class="newsSection">
+
+      </div>
+      -->
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="BookmarksNewsTitle">Bookmarks</h1>
+      </a>
+
+      <div id="BookmarksNews" class="newsSection">
+
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="StockNewsTitle">Stock Section</h1>
+      </a>
+      <div id="StockNews" class="newsSection">
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="WorldNewsTitle">World Section</h1>
+      </a>
+      <div id="WorldNews" class="newsSection">
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="BusinessNewsTitle">Business/Finance Section</h1>
+      </a>
+      <div id="BusinessNews" class="newsSection">
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="EntertainmentNewsTitle">Entertainment Section</h1>
+      </a>
+      <div id="EntertainmentNews" class="newsSection">
+
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="GeneralNewsTitle">General Section</h1>
+      </a>
+      <div id="GeneralNews" class="newsSection">
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="PoliticsNewsTitle">Politics Section</h1>
+      </a>
+      <div id="PoliticsNews" class="newsSection">
+
+      </div>
+
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="ScienceNewsTitle">Science Section</h1>
+      </a>
+      <div id="ScienceNews" class="newsSection">
+
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="EducationNewsTitle">Education Section</h1>
+      </a>
+      <div id="EducationNews" class="newsSection">
+
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="SportsNewsTitle">Sports Section</h1>
+      </a>
+      <div id="SportsNews" class="newsSection">
+
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="HealthNewsTitle">Health Section</h1>
+      </a>
+      <div id="HealthNews" class="newsSection">
+
+      </div>
+
+      <a href="#navBar">
+        <h1 class="sectionTitle" id="TechnologyNewsTitle">Technology Section</h1>
+      </a>
+      <div id="TechnologyNews" class="newsSection">
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      var audio = document.getElementById('myAudio');
+      // Pause the audio initially
+      audio.pause();
+      // Play audio on mouseenter
+      $('.initial').on('click', function () {
+        $('.initial').css({
+          "display" : "none"
+        });
+        $('.news').css({
+          "display": "block"
+        })
+        audio.play();
+        
+      });
+
+    });
+  </script>
+</body>
+
+</html>

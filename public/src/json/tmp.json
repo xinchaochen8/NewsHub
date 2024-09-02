@@ -1,0 +1,63 @@
+{
+    "meta": {
+        "found": 931995,
+        "returned": 3,
+        "limit": 3,
+        "page": 1
+    },
+    "data": [
+        {
+            "uuid": "9472efa3-5c88-4d8f-9509-2dc66a1a5f31",
+            "title": "I literally spoke with Nvidiaâ€™s AI-powered video game NPCs",
+            "description": "Nvidia and Convai showed off interactive AI-powered NPCs at CES 2024 where you can press a button to talk and they answer in their own voice. Hereâ€™s what it w...",
+            "keywords": "",
+            "snippet": "What if you could just... speak... to video game characters? Ask your own questions, with your own voice, instead of picking from preset phrases?\n\nLast May, Nvi...",
+            "url": "https:\/\/www.theverge.com\/24031687\/nvidia-ai-npcs-convai-ces-2023",
+            "image_url": "https:\/\/cdn.vox-cdn.com\/thumbor\/a-8PPDEC0ex9nrOo13HbPcixy1Q=\/0x0:2040x1148\/1200x628\/filters:focal(1020x574:1021x575)\/cdn.vox-cdn.com\/uploads\/chorus_asset\/file\/25233044\/nvidia_ces_2024_ai_npc_convei.jpg",
+            "language": "en",
+            "published_at": "2024-01-18T20:39:23.000000Z",
+            "source": "theverge.com",
+            "categories": [
+                "tech"
+            ],
+            "relevance_score": null,
+            "locale": "us"
+        },
+        {
+            "uuid": "f7b77638-37e0-4249-ae6a-baa5a503d449",
+            "title": "Red Sea attacks already bigger issue for supply chain than pandemic, maritime advisory warns",
+            "description": "Houthi attacks on ships in the Red Sea are already having a bigger impact on the supply chain than Covid, according to data coming in on cargo vessel delays.",
+            "keywords": "Red Sea, Transportation, Shipping, Economy, United States, World economy, Breaking News: Economy, Environment, business news",
+            "snippet": "Containers are piled up in Lisbon, Portugal, on January 13, 2024. Recent U.S. and UK air strikes on Yemen are causing global shipping rates to spike, sparking f...",
+            "url": "https:\/\/www.cnbc.com\/2024\/01\/18\/red-sea-crisis-already-bigger-issue-for-shipping-than-covid-data-show.html",
+            "image_url": "https:\/\/image.cnbcfm.com\/api\/v1\/image\/107361280-1705604228304-gettyimages-1923169106-boza-highersh240113_npfGn.jpeg?v=1705604254&w=1920&h=1080",
+            "language": "en",
+            "published_at": "2024-01-18T20:32:59.000000Z",
+            "source": "cnbc.com",
+            "categories": [
+                "general",
+                "business"
+            ],
+            "relevance_score": null,
+            "locale": "us"
+        },
+        {
+            "uuid": "5a6d94ee-5d3e-4844-b423-558c49777783",
+            "title": "Josh Stewart Wonâ€™t Be on 'Criminal Minds: Evolutionâ€™ Season 2",
+            "description": "Josh Stewart posted on social media that he wonâ€™t be returning to â€˜Criminal Minds: Evolutionâ€™",
+            "keywords": "",
+            "snippet": "Criminal Minds favorite Josh Stewart will not be returning for the second season of Evolution.\n\nOn Wednesday, January 17, Stewart, 46, posted on X about his dep...",
+            "url": "https:\/\/www.usmagazine.com\/entertainment\/news\/josh-stewart-wont-be-on-criminal-minds-evolution-season-2\/",
+            "image_url": "https:\/\/www.usmagazine.com\/wp-content\/uploads\/2024\/01\/Criminal-Minds-Alum-Josh-Stewart-Says-He-Wont-Be-Returning-1.jpg?crop=0px%2C0px%2C1332px%2C699px&resize=1200%2C630&quality=86&strip=all",
+            "language": "en",
+            "published_at": "2024-01-18T20:28:07.000000Z",
+            "source": "usmagazine.com",
+            "categories": [
+                "entertainment",
+                "general"
+            ],
+            "relevance_score": null,
+            "locale": "us"
+        }
+    ]
+}

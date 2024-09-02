@@ -1,0 +1,61 @@
+{
+    "meta": {
+        "found": 16414,
+        "returned": 3,
+        "limit": 3,
+        "page": 1
+    },
+    "data": [
+        {
+            "uuid": "927eabe9-de8b-45bf-ad56-ae0ae541baa8",
+            "title": "Revival of Formosan landlocked salmon population a success: Park official",
+            "description": "Taipei, Jan. 18 (CNA) Efforts to boost the population of Taiwan's once critically endangered Formosan landlocked salmon have been a huge success, with the speci...",
+            "keywords": "",
+            "snippet": "To activate the text-to-speech service, please first agree to the privacy policy below.\n\nTaipei, Jan. 18 (CNA) Efforts to boost the population of Taiwan's once ...",
+            "url": "https:\/\/focustaiwan.tw\/society\/202401180028",
+            "image_url": "https:\/\/imgcdn.cna.com.tw\/Eng\/WebEngPhotos\/1024\/2024\/20240118\/1024x683_93892996187.jpg",
+            "language": "en",
+            "published_at": "2024-01-18T14:56:12.000000Z",
+            "source": "focustaiwan.tw",
+            "categories": [
+                "general"
+            ],
+            "relevance_score": null,
+            "locale": "tw"
+        },
+        {
+            "uuid": "5aae5761-5dd6-4d56-92cc-2414975db315",
+            "title": "TSMC forecasts sales to grow by over 20% in 2024",
+            "description": "Taipei, Jan. 18 (CNA) Taiwan Semiconductor Manufacturing Co. (TSMC), the world's largest contract chipmaker, on Thursday said it will return to healthy growth i...",
+            "keywords": "",
+            "snippet": "To activate the text-to-speech service, please first agree to the privacy policy below.\n\nTaipei, Jan. 18 (CNA) Taiwan Semiconductor Manufacturing Co. (TSMC), th...",
+            "url": "https:\/\/focustaiwan.tw\/business\/202401180027",
+            "image_url": "https:\/\/imgcdn.cna.com.tw\/Eng\/WebEngPhotos\/1024\/2024\/20240118\/1024x668_510156129178.jpg",
+            "language": "en",
+            "published_at": "2024-01-18T14:32:10.000000Z",
+            "source": "focustaiwan.tw",
+            "categories": [
+                "general"
+            ],
+            "relevance_score": null,
+            "locale": "tw"
+        },
+        {
+            "uuid": "6525195c-bc33-45de-9f7b-8b2f23243a07",
+            "title": "Deputy economics minister addresses Taipower losses, energy future",
+            "description": "Taipei, Jan. 18 (CNA) Deputy Minister of Economic Affairs Tseng Wen-sheng (æ›¾æ–‡ç”Ÿ), who doubles as chairman of Taiwan Power Company (Taipower), on Thursday r...",
+            "keywords": "",
+            "snippet": "To activate the text-to-speech service, please first agree to the privacy policy below.\n\nTaipei, Jan. 18 (CNA) Deputy Minister of Economic Affairs Tseng Wen-she...",
+            "url": "https:\/\/focustaiwan.tw\/business\/202401180026",
+            "image_url": "https:\/\/imgcdn.cna.com.tw\/Eng\/WebEngPhotos\/1024\/2024\/20240118\/1567x1044_50738231372.jpg",
+            "language": "en",
+            "published_at": "2024-01-18T14:08:07.000000Z",
+            "source": "focustaiwan.tw",
+            "categories": [
+                "general"
+            ],
+            "relevance_score": null,
+            "locale": "tw"
+        }
+    ]
+}

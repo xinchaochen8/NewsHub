@@ -1,0 +1,80 @@
+.request-component {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    width: 1366px;
+    margin: auto;
+    flex-direction: column;
+    background-image: url(./stroy_bg_02.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 8%;
+}
+
+/* #requestForm {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+} */
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.request-component button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.request-component button:hover {
+    background-color: #45a049;
+}
+
+.switch-button {
+    margin-bottom: 1em;
+}
+
+.requestButtonSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formHeader {
+    color: white;
+}
+
+@media screen and (max-width: 1588px) {
+    .request-component {
+        height: auto;
+        width: 80%;
+        margin-top: 8em;
+        margin-bottom: 8em;
+    }
+}

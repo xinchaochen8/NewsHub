@@ -1,0 +1,13 @@
+#Humidity,
+#WindSpeed {
+    font-size: 16px;
+    color: #777;
+}
+
+.others_info {
+    border: 8px;
+    background-color: #ecf0f1;
+    border-radius: 3em;
+    display: flex;
+    margin-top: 8px;
+}

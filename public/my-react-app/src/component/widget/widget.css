@@ -1,0 +1,46 @@
+.widget-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    width: 1366px;
+    margin: auto;
+    flex-direction: column;
+    background-image: url(./stroy_bg_02.jpg);
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    margin-top: 2em;
+}
+
+
+
+.widget-container h2,
+.widget-container h3 {
+    font-size: 18px;
+    color: #333;
+    width: fit-content;
+    padding: 9px;
+}
+
+.widget-container p {
+    font-size: 14px;
+    color: #666;
+    width: fit-content;
+    padding: 9px;
+}
+
+@media screen and (max-width: 1588px) {
+    .widget-container {
+        max-height: 1800px;
+        height: auto;
+        width: 80%;
+        margin: auto;
+        margin-top: 2em
+    }
+}

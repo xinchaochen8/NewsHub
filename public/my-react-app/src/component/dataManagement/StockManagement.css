@@ -1,0 +1,64 @@
+.stock-management {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 360px;
+    width: 1366px;
+    margin: auto;
+    flex-direction: column;
+    background-image: url(./stroy_bg_02.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 8%;
+}
+
+.stock-management-title {
+    color: white;
+    border: 1em;
+    border-radius: 8em;
+    /* background-color: #fff; */
+    width: max-content;
+    padding: 8px;
+}
+
+.stock-management-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.stock-management-form button,
+.stock-management button{
+    margin: 3px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.stock-management-form button:hover,
+.stock-management button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 1588px) {
+    .stock-management {
+        height: 360px;
+        width: 80%;
+        margin-top: 8em;
+        margin-bottom: 8em;
+    }
+}

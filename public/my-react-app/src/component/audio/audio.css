@@ -1,0 +1,11 @@
+#audio-container {
+    display: none;
+}
+
+.audio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+}

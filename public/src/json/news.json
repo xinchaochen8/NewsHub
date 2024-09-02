@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "totalResults": 1,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "POST"
+      },
+      "author": "Yuzusoft",
+      "title": "Exciting Adventure in the World of Visual Novels",
+      "description": "Immerse yourself in a captivating visual novel experience created by Yuzusoft.",
+      "url": "https://www.yuzusoft.co.jp/",
+      "urlToImage": "https://example.com/yuzusoft-cover-image.jpg",
+      "publishedAt": "2024-02-12T12:14:36Z",
+      "content": "Embark on a thrilling journey with Yuzusoft's latest visual novel. Uncover mysteries, forge relationships, and make crucial choices that shape the outcome of the story. Immerse yourself in beautifully crafted art, captivating music, and an engaging narrative that will keep you hooked from start to finish. Whether you're a seasoned visual novel enthusiast or a newcomer to the genre, Yuzusoft's creations promise an unforgettable experience. Stay tuned for updates as we unveil more details about this exciting release!"
+    }
+  ]
+}
